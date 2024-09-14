@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.tic-tac-toe {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: inherit;
+  box-sizing: border-box;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.circle {
+  color: blue;
+}
+
+.cross {
+  color: red;
+}
+
+.turn {
+  font-size: 24px;
+}
+
+.win {
+  font-size: 24px;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
